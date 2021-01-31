@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PersonTaskApp</string>
+
+    //Add Fragment
+    <string name="person_id">Person ID</string>
+    <string name="person_name">Person Name</string>
+    <string name="person_role">Person Role</string>
+    <string name="person_task">Person Task</string>
+    <string name="task_deadline">Task Deadline</string>
+    <string name="spending_hour">Spending Hour</string>
+    <string name="insert_btn">INSERT</string>
+    <string name="cancel_btn">CANCEL</string>
+
+    <string name="delete_id">Enter ID</string>
+
+    //Update
+
+    <string name="enter_person_id">Person ID</string>
+    <string name="enter_person_name">Person Name</string>
+    <string name="enter_person_role">Person Role</string>
+    <string name="enter_person_task">Person Task</string>
+    <string name="enter_task_deadline">Task Deadline</string>
+    <string name="enter_spending_hour">Spending Hour</string>
+
+    // Bar Buttons
+    <string name="add_item">Add Task</string>
+    <string name="view_item">View Task</string>
+
+</resources>

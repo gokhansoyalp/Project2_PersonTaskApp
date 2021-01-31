@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="frame_margin">8dp</dimen>
+    <dimen name="view_paddingleft">15dp</dimen>
+
+    //add fragment
+    <dimen name="linear_margin">20dp</dimen>
+    <dimen name="layout_margin">20dp</dimen>
+    <dimen name="layout_width">200dp</dimen>
+    <dimen name="layout_width2">150dp</dimen>
+
+    //custom list
+    <dimen name="left_margin">10dp</dimen>
+    <dimen name="text_size">17sp</dimen>
+    <dimen name="right_margin_left">80dp</dimen>
+    <dimen name="right_margin_top">10dp</dimen>
+
+    //update dialog
+    <dimen name="layout_padding">10dp</dimen>
+
+
+</resources>

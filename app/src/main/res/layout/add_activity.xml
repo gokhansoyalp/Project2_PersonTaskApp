@@ -1,0 +1,167 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/linear_margin"
+    android:layout_marginTop="@dimen/linear_margin"
+    android:layout_marginEnd="@dimen/linear_margin"
+    android:layout_marginBottom="@dimen/linear_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="@string/person_id" />
+
+            <EditText
+                android:id="@+id/insert_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_marginStart="@dimen/layout_margin"
+                android:layout_marginLeft="@dimen/layout_margin"
+                android:width="@dimen/layout_width" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="@string/person_name" />
+
+            <EditText
+
+                android:id="@+id/insert_name"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/layout_margin"
+                android:layout_marginLeft="@dimen/layout_margin"
+                android:width="@dimen/layout_width2" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="@string/person_role" />
+
+            <EditText
+                android:id="@+id/insert_role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_marginStart="@dimen/layout_margin"
+                android:layout_marginLeft="@dimen/layout_margin"
+                android:width="@dimen/layout_width" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="@string/person_task" />
+
+            <EditText
+                android:id="@+id/insert_task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_marginStart="@dimen/layout_margin"
+                android:layout_marginLeft="@dimen/layout_margin"
+                android:width="@dimen/layout_width" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="@string/task_deadline" />
+
+            <EditText
+                android:id="@+id/insert_deadline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_marginStart="@dimen/layout_margin"
+                android:layout_marginLeft="@dimen/layout_margin"
+                android:width="@dimen/layout_width" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="@string/spending_hour" />
+
+            <EditText
+                android:id="@+id/insert_spend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_marginStart="@dimen/layout_margin"
+                android:layout_marginLeft="@dimen/layout_margin"
+                android:width="@dimen/layout_width" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Task Complete" />
+
+            <CheckBox
+                android:id="@+id/cb_complete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_marginStart="@dimen/layout_margin"
+                android:layout_marginLeft="@dimen/layout_margin"
+                android:width="@dimen/layout_width" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_insert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/insert_btn" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin"
+            android:text="@string/cancel_btn" />
+
+    </LinearLayout>
+</LinearLayout>
